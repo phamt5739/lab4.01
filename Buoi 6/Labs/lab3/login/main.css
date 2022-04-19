@@ -1,0 +1,74 @@
+#container{
+    width: 30%;
+    margin: 0 35%;
+}
+fieldset{
+    padding: 10px;
+}
+.khungImg{
+    text-align: center;
+}
+.logo-img{
+    width: 200px;
+}
+.heading{
+    text-align: center;
+}
+.sub-heading{
+    text-align: center;
+}
+.user{
+    width: 80%;
+    margin: 0 10%;
+}
+.user input{
+    width: 95%;
+    padding: 4px 8px;
+    outline: none;
+    border: 1px solid #888;
+    border-radius: 2px;
+}
+.user-forget{
+    margin: 8px 10%;
+}
+.user-forget_link{
+    text-decoration: none;
+    font-size: 16px;
+}
+.sub{
+    margin: 20px 10%;
+    font-size: 16px;
+}
+.sub a{
+    text-decoration: none;
+    color: blue;
+}
+.btton{
+    width: 80%;
+    margin: 0 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    min-width: 40px;
+    background-color: blue;
+    border: none;
+    padding: 6px 16px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.btn.btn--reset{
+    padding: 4px 8px;
+    background-color: #fff;
+    color: blue;
+}
+.btn.btn--reset.btn--login{
+    margin-left: -36px;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.btn.btn--reset:hover{
+    background-color: rgb(231, 237, 237);
+}
